@@ -3,8 +3,11 @@
 
 ## Overview
 This project implements a three-phase motor controller designed for open-loop and closed-loop operation. The hardware is based on the FNA23512A Intelligent Power Module (IPM), enabling safe and efficient control of AC motors. It includes full documentation, schematics, and layout files, created using EasyEDA Std.
-![PCB Layout view](a429ff920e834ca6a70d8009d3cdbe5e.png)
-![Schematic](07c46b8e3738426e85f0332e4b6f73aa.png)
+
+![PCB Layout view](Top_view.png.png)
+![Schematic](Bottom_view.png.png)
+
+
 ## Features
 - **Power Stage**: 1200V / 35A IGBT inverter (FNA23512A)
 - **Integrated Protections**: UVLO, over-current shutdown, fault signaling
@@ -22,6 +25,12 @@ This project implements a three-phase motor controller designed for open-loop an
 3. Attach DC bus capacitors, power and signal connectors.
 4. Install heatsink with thermal interface material.
 5. Verify all wiring and inspect for solder bridges.
+
+
+![PCB Layout view](a429ff920e834ca6a70d8009d3cdbe5e.png)
+![Schematic](07c46b8e3738426e85f0332e4b6f73aa.png)
+![Schematic](IMG-202402.jpg.png)
+
 
 ## Wiring
 - **Motor**: Connect U/V/W outputs.
@@ -42,7 +51,7 @@ This project implements a three-phase motor controller designed for open-loop an
 ## Repository Contents
 - `Schematic_hkm_igbt_module_2025-05-30.pdf`: Full schematic
 - `FNA23512A-D.pdf`: Module datasheet
-- `*.png`: PCB layout images
+- `07c46b8e3738426e85f0332e4b6f73aa.png`: PCB layout images
 - `README.md`: This file
 
 Designed with EasyEDA Std for motor control experimentation and integration in lab/industrial environments.
