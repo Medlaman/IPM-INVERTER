@@ -3,7 +3,8 @@
 
 ## Overview
 This project implements a three-phase motor controller designed for open-loop and closed-loop operation. The hardware is based on the FNA23512A Intelligent Power Module (IPM), enabling safe and efficient control of AC motors. It includes full documentation, schematics, and layout files, created using EasyEDA Std.
-
+![PCB Layout view](a429ff920e834ca6a70d8009d3cdbe5e.png)
+![Schematic](07c46b8e3738426e85f0332e4b6f73aa.png)
 ## Features
 - **Power Stage**: 1200V / 35A IGBT inverter (FNA23512A)
 - **Integrated Protections**: UVLO, over-current shutdown, fault signaling
