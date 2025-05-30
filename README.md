@@ -4,8 +4,8 @@
 ## Overview
 This project implements a three-phase motor controller designed for open-loop and closed-loop operation. The hardware is based on the FNA23512A Intelligent Power Module (IPM), enabling safe and efficient control of AC motors. It includes full documentation, schematics, and layout files, created using EasyEDA Std.
 
-![PCB Layout view](Top_view.png.png)
-![Schematic](Bottom_view.png.png)
+![Top view](Top_view.png.png)
+![Bottom view](Bottom_view.png.png)
 
 
 ## Features
@@ -29,7 +29,7 @@ This project implements a three-phase motor controller designed for open-loop an
 
 ![PCB Layout view](a429ff920e834ca6a70d8009d3cdbe5e.png)
 ![Schematic](07c46b8e3738426e85f0332e4b6f73aa.png)
-![Schematic](IMG-202402.jpg.png)
+![real view](IMG-202402.jpg.png)
 
 
 ## Wiring
